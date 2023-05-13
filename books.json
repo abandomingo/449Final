@@ -1,20 +1,101 @@
-
-
-[
-  {
-    "title": "To Kill a Mockingbird",
-    "author": "Harper Lee",
-    "description": "This book is a timeless classic that discusses human behavior and the collective conscience of The Deep South during the 20th century. This book discusses hypocrisy, prejudice, hatred, love and innocence with humor to create an amazing novel that you are bound to love.",
-    "price": 19.99,
-    "stock": 10,
-    "sold": 4
+[{
+  "_id": {
+    "$oid": "64594ea0f15f09fdbb9d2571"
   },
-  {
-    "title": " 1984",
-    "author": "George Orwell",
-    "description": "1984 is George Orwell's dystopian and totalitarian world where fear, control and lies take over the lives of people. Look into the life of Winston Smith who struggles with his nature in a world where free will, individuality, and love are not allowed.",
-    "price": 19.99,
-    "stock": 14,
-    "sold": 15
-  }
-]
+  "title": "1984",
+  "author": "George Orwell",
+  "description": "A dystopian novel about a totalitarian government",
+  "price": 11.15,
+  "stock": 100,
+  "sales": 1000
+},{
+  "_id": {
+    "$oid": "645952caf15f09fdbb9d2572"
+  },
+  "title": "The Great Gatsby",
+  "author": "F. Scott Fitzgerald",
+  "description": "A novel about a rich man and his obsession with his former lover",
+  "price": 4.14,
+  "stock": 90,
+  "sales": 1100
+},{
+  "_id": {
+    "$oid": "645952caf15f09fdbb9d2573"
+  },
+  "title": "Art of War",
+  "author": "Sun Tzu",
+  "description": "The most famous study of strategy ever writtten",
+  "price": 9.99,
+  "stock": 200,
+  "sales": 500
+},{
+  "_id": {
+    "$oid": "645952caf15f09fdbb9d2574"
+  },
+  "title": "Brave New World",
+  "author": "Aldous Huxley",
+  "description": "A dystopian novel about an engineered society",
+  "price": 10.35,
+  "stock": 130,
+  "sales": 1400
+},{
+  "_id": {
+    "$oid": "64595436f15f09fdbb9d2575"
+  },
+  "title": "The Catcher in the Rye",
+  "author": "J.D. Salinger",
+  "description": "A novel about teenage angst and rebellion in post-WWII America",
+  "price": 8.99,
+  "stock": 150,
+  "sales": 900
+},{
+  "_id": {
+    "$oid": "64595436f15f09fdbb9d2576"
+  },
+  "title": "To Kill a Mockingbird",
+  "author": "Harper Lee",
+  "description": "A classic novel that explores the themes of racial inequality and injustice in the Deep South",
+  "price": 11.99,
+  "stock": 75,
+  "sales": 1200
+},{
+  "_id": {
+    "$oid": "64595436f15f09fdbb9d2577"
+  },
+  "title": "The Lord of the Rings",
+  "author": "J.R.R. Tolkien",
+  "description": "A high fantasy novel that follows the journey of hobbit Frodo Baggins as he tries to destroy the One Ring",
+  "price": 15.99,
+  "stock": 100,
+  "sales": 800
+},{
+  "_id": {
+    "$oid": "64595436f15f09fdbb9d2578"
+  },
+  "title": "Pride and Prejudice",
+  "author": "Jane Austen",
+  "description": "A classic novel that explores the themes of love, marriage, and class in 19th century England",
+  "price": 7.99,
+  "stock": 125,
+  "sales": 950
+},{
+  "_id": {
+    "$oid": "64595436f15f09fdbb9d2579"
+  },
+  "title": "One Hundred Years of Solitude",
+  "author": "Gabriel Garcia Marquez",
+  "description": "A landmark novel that chronicles the history of the Buendia family and the town of Macondo over seven generations",
+  "price": 12.99,
+  "stock": 80,
+  "sales": 700
+},{
+  "_id": {
+    "$oid": "64595436f15f09fdbb9d257a"
+  },
+  "title": "The Hitchhiker's Guide to the Galaxy",
+  "author": "Douglas Adams",
+  "description": "A humorous science fiction series that follows the adventures of Arthur Dent, a hapless human, and his alien friend Ford Prefect",
+  "price": 6.99,
+  "stock": 175,
+  "sales": 1000
+}]
