@@ -1,0 +1,20 @@
+
+
+[
+  {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "description": "This book is a timeless classic that discusses human behavior and the collective conscience of The Deep South during the 20th century. This book discusses hypocrisy, prejudice, hatred, love and innocence with humor to create an amazing novel that you are bound to love.",
+    "price": 19.99,
+    "stock": 10,
+    "sold": 4
+  },
+  {
+    "title": " 1984",
+    "author": "George Orwell",
+    "description": "1984 is George Orwell's dystopian and totalitarian world where fear, control and lies take over the lives of people. Look into the life of Winston Smith who struggles with his nature in a world where free will, individuality, and love are not allowed.",
+    "price": 19.99,
+    "stock": 14,
+    "sold": 15
+  }
+]
