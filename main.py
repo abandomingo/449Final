@@ -139,3 +139,28 @@ def get_books_total_stock():
     total_stock = sum(book["stock"] for book in result)
 
     return {"total_stock": total_stock}
+
+@app.get("/bestsellers")
+def get_bestsellers():
+    pipeline = [
+        {"$sort": {"sales": -1}},
+        {"$limit": 5},
+        {"$project": {"_id": 0, "title": 1, "sales": 1}}
+    ]
+
+    result = list(db.books.aggregate(pipeline))
+
+    return {"bestsellers": result}
+
+@app.get("/most-books-in-store")
+def get_authors_most_stock():
+    pipeline = [
+        {"$group": {"_id": "$author", "total_stock": {"$sum": "$stock"}}},
+        {"$sort": {"total_stock": -1}},
+        {"$limit": 5},
+        {"$project": {"_id": 0, "author": "$_id", "total_stock": 1}}
+    ]
+
+    result = list(db.books.aggregate(pipeline))
+
+    return {"authors_most_stock": result}
